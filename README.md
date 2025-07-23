@@ -4,12 +4,13 @@ An implementation of [PAIR](https://jailbreaking-llms.github.io/)
 ## Installation 
 
 ```sh 
-go install github.com/lordxarus/go-pair/cmd/gop
+go install github.com/lordxarus/go-pair/cmd/gop@latest
 ```
 
 ## Example Config
 - config.toml currently needs to be in the cwd of the binary 
-- ApiEnvVar key is the **name** of the environment variable to use 
+- ApiEnvVar is the **name** of the environment variable to use
+  
 ```toml
 [Models.Attacker]
 Type = 0
