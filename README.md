@@ -1,4 +1,7 @@
 # PAIR in Go
+
+![img](https://img.shields.io/badge/status-work_in_progress-orange)
+
 An implementation of [PAIR](https://jailbreaking-llms.github.io/)
 
 ## Installation 
@@ -7,10 +10,11 @@ An implementation of [PAIR](https://jailbreaking-llms.github.io/)
 go install github.com/lordxarus/go-pair/cmd/gop@latest
 ```
 
-## Example Config
-- config.toml currently needs to be in the cwd of the binary 
-- ApiEnvVar is the **name** of the environment variable to use
-  
+config.toml currently needs to be in the cwd of the binary 
+
+ApiEnvVar is the **name** of the environment variable to use
+
+## Example Config  
 ```toml
 [Models.Attacker]
 Type = 0
